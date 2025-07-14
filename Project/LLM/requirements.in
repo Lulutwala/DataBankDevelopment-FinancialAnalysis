@@ -1,0 +1,10 @@
+# requirements.in
+torch
+torchvision
+torchaudio
+tensorflow
+flax
+gradio
+llama-index-embeddings-mixedbreadai
+llama-index-llms-groq
+llama-parse
