@@ -1,0 +1,19 @@
+  KEY = llx-xqltc8GXytFwrwGM4jlLE00zFpR56tbpz9NvFLMh62OS3Jnr FROM https://cloud.llamaindex.ai/project/76b4d0f7-14e6-4097-ad57-8de870090be3/api-key
+
+https://www.datacamp.com/tutorial/deploy-llm-applications-using-docker
+
+
+KEY=emb_f59b12e077404c548706834edbfeb7274380a19424a317ba             FROM https://www.mixedbread.ai/auth/sign-in
+
+
+
+key =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 from    https://console.groq.com/keys
+
+
+pip install llama_index
+
+docker run -e LLAMA_CLOUD_API_KEY="llx-xqltc8GXytFwrwGM4jlLE00zFpR56tbpz9NvFLMh62OS3Jnr" -e GROQ_API_KEY="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" -e MXBAI_API_KEY="emb_f59b12e077404c548706834edbfeb7274380a19424a317ba" your_docker_image
+
+docker build -f D:\Thesis\LLM\DockerFile -t docqa .
+
+docker run -e LLAMA_CLOUD_API_KEY="llx-xqltc8GXytFwrwGM4jlLE00zFpR56tbpz9NvFLMh62OS3Jnr" -e GROQ_API_KEY="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" -e MXBAI_API_KEY="emb_f59b12e077404c548706834edbfeb7274380a19424a317ba" docqa
